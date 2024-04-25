@@ -1,0 +1,5 @@
+d=int(input('Digite a quantidade de dias: '))
+h=int(input('Digite a quantidade de horas: '))
+m=int(input('Digite a quantidade de minutos: '))
+s=int(input('Digite a quantidade de segundos: '))
+print(f'Todo o tempo computado em segundos equivale a: {s+(m*60)+(h*60**2)+(24*d*60**2)}')
